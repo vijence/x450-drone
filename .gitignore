@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# SolidWorks temp / lock files
+~$*
+*.SLDPRT.bak
+*.SLDASM.bak
+
+# Large raw logs: commit only selected logs referenced by reports
+logs/*.bin
+!logs/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
