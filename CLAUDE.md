@@ -8,7 +8,7 @@ Ziv is a mechanical engineer (SolidWorks, 3D printing) working in validation and
 ## Key decisions (see docs/decisions/)
 - FC: genuine Holybro Pixhawk 6C Mini + PM02 V3 (analog) + M10 GPS. **ArduPilot** (not PX4).
 - RC: RadioMaster TX16S (OpenTX → upgrade to EdgeTX; internal MULTI, not ELRS) with an external RadioMaster Ranger ELRS 2.4 GHz module and an RP2 receiver over CRSF.
-- Propulsion: T-Motor Air Gear 450 (2216 920KV, 20A ESCs, T1045 props), 4S 5000 mAh LiPo.
+- Propulsion: T-Motor AIR2216 II 920KV motors + T1045 props, **Holybro Tekko32 F4 4in1 50A ESC running AM32** (bidirectional DShot, ESC telemetry, current sensor), 4S 5000 mAh LiPo. DShot needs FMU outputs, not IO.
 - Frame: own design, 16 mm carbon arms, PETG/PA-CF printed hub and mounts.
 - Companion: Raspberry Pi on TELEM2, MAVLink2 @ 921600.
 - No 5.8 GHz video (Israeli import and regulatory issues). Video comes later, from the Pi over Wi-Fi.

@@ -49,7 +49,7 @@ The background, findings and open questions gathered while planning the project.
 - **Radio:** 5.8 GHz transmitters are restricted for import and use, and wireless gear may need Ministry of Communications approval. Hence ELRS at 2.4 GHz and no analog FPV video. Check the approved-models list before buying any transmitter.
 
 ## Future upgrades / learning path
-- **Modern ESCs:** a 4-in-1 with AM32 / BLHeli_32 and bidirectional DShot → RPM-based harmonic notch.
+- **Modern ESC: DONE in the design.** Tekko32 4in1 AM32 (see decision 0003). BLHeli_32 development has stopped, and AM32 is its open-source successor.
 - **DroneCAN GPS** (M10 CAN variant), which builds on CAN experience.
 - **GPS-denied navigation (M7):** optical flow + rangefinder (e.g. Matek 3901-L0X) → VIO on the companion (ORB-SLAM3, VINS-Fusion, OpenVINS) → `VISION_POSITION_ESTIMATE`. Map matching against satellite imagery is the hard, commercial-grade step. Evaluate against GPS ground truth with RMSE and drift as % of distance travelled.
 - **Video:** first H.264 from the Pi over Wi-Fi (100–300 m, 150–300 ms); later perhaps OpenHD / WFB-ng, kept within the legal TX power.

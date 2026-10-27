@@ -27,7 +27,7 @@ The exit criteria for each milestone are in [docs/roadmap.md](docs/roadmap.md), 
 | Frame | ~480 mm diagonal, 16 mm carbon arms, 3D-printed hub and mounts (own design, SolidWorks) |
 | Flight controller | Holybro Pixhawk 6C Mini (STM32H743, dual IMU) running ArduPilot |
 | GNSS | Holybro M10 + IST8310 compass |
-| Propulsion | T-Motor Air Gear 450: 2216 920KV, 20A ESCs, 10×4.5" props |
+| Propulsion | T-Motor AIR2216 II 920KV, 10×4.5" props, Holybro Tekko32 4in1 50A ESC (AM32, bidirectional DShot, telemetry) |
 | Battery | 4S 5000 mAh LiPo |
 | RC link | ExpressLRS 2.4 GHz (RadioMaster TX16S + Ranger, RP2 receiver) |
 | Companion | Raspberry Pi, MAVLink over UART (TELEM2) |

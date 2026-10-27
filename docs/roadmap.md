@@ -16,6 +16,8 @@ Learn ArduPilot before risking hardware.
 - [ ] Mass budget spreadsheet; predicted thrust-to-weight and hover time
 - [ ] SolidWorks: hub, motor mounts, electronics tray with FC vibration isolation, GPS mast, landing gear
 - [ ] Wiring diagram (draw.io) in `docs/`
+- [ ] Interface control document complete ([icd.md](icd.md)); all TBDs resolved
+- [ ] FMEA (`docs/fmea.md`): failure modes per component, effect, detection (log signal), mitigation (failsafe or design)
 - [ ] Test-print critical parts; check fit against the actual carbon tubes
 
 **Exit criteria:** the design meets every M1 requirement on paper, and the printed parts fit the tubes.
@@ -31,6 +33,7 @@ Learn ArduPilot before risking hardware.
 - [ ] Assemble the frame; solder the power harness
 - [ ] Continuity and short checks with the multimeter; first power-up through a smoke stopper
 - [ ] Flash ArduPilot; calibrate the accelerometer, compass, radio and ESCs
+- [ ] Verify every interface in [icd.md](../docs/icd.md) (mark ✅)
 - [ ] Motor order and direction test (**no props**)
 - [ ] Failsafe bench test: RC off → expected action
 
