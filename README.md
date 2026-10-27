@@ -18,7 +18,7 @@ I run the project the way I run validation work in my day job. Each stage has re
 | M7: GPS-denied navigation | ⬜ |
 | M8: Final report | ⬜ |
 
-The exit criteria for each milestone are in [docs/roadmap.md](docs/roadmap.md).
+The exit criteria for each milestone are in [docs/roadmap.md](docs/roadmap.md), and the workflow (issues, branches, weekly review, definition of done) is in [docs/how-we-work.md](docs/how-we-work.md).
 
 ## The aircraft
 
