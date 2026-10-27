@@ -24,6 +24,9 @@ Ziv is a mechanical engineer (SolidWorks, 3D printing) working in validation and
 - Code is written with AI assistance; keep the README note about this honest and accurate.
 - Safety first: never suggest bench tests with props fitted; failsafes are configured before the first flight.
 
+## Background
+**Read `docs/project-notes.md`** for the state of the owned equipment (TX16S details, battery recovery), purchasing notes and links, regulatory findings, the future upgrade path and the open items. Keep it updated as things change.
+
 ## Current status
 - M2 procurement in progress (see `docs/bom.md`).
 - Next: M0, SITL + Mission Planner setup on Windows; M1, requirements freeze + SolidWorks design.
